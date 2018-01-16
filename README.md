@@ -74,7 +74,7 @@ When calling provided webhook making a POST request to given url from merchant a
     supportId: "TLIH2JXD",
     invoiceNumber: "code_finalflow_po",
     SKU: "98987ABC879798",
-	Signature: “asdf23qafds9j29ajfas9fj29fajsa9fj29fwajfao9j”
+	Signature: "asdf23qafds9j29ajfas9fj29fajsa9fj29fwajfao9j"
 }
 ~~~
 Once all the transfers related to given order are verified (more than 10 blocks behind)  the transactionStatus field will be equal to “verified”.
