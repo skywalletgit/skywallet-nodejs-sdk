@@ -273,7 +273,7 @@ class SkyWallet{
 
 	static setConfigs(config) {
 		if(!config.url){
-			config.url = 'https://app.skywallet.com:9018/api';
+			config.url = 'https://app.skywallet.com/api';
 		}
 
 		if(!config.apiKey){
